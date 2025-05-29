@@ -1,3 +1,4 @@
+
 # 🔗 URL_PARSE_USING_NODE_JS
 
 > Effortlessly parse and extract components from any URL using Node.js!
@@ -15,14 +16,14 @@ Built with the tools and technologies:
 
 ## 📚 Table of Contents
 
-- [Overview](#overview)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Testing](#testing)
-- [Examples](#examples)
-- [License](#license)
+- [Overview](#-overview)
+- [Getting Started](#-getting-started)
+  - [Prerequisites](#-prerequisites)
+  - [Installation](#-installation)
+  - [Usage](#-usage)
+  - [Testing](#-testing)
+- [Examples](#-examples)
+- [License](#-license)
 
 ---
 
@@ -53,4 +54,67 @@ This is useful for web developers and backend engineers who want to learn or imp
 1. **Clone the repository**
    ```bash
    git clone https://github.com/saikatdasdeveloper/Url_Parse_using_Node_Js.git
+   ```
+
+2. **Navigate to the project directory**
+   ```bash
+   cd Url_Parse_using_Node_Js
+   ```
+
+3. **Install dependencies**
+   (No external dependencies required as it uses Node's built-in modules)
+
+---
+
+### 📌 Usage
+
+Run the parser script using:
+
+```bash
+node index.js
+```
+
+You can customize the URL in the `index.js` file to test different outputs.
+
+---
+
+### 🧪 Testing
+
+No external test framework is required. To test:
+
+- Modify the `inputUrl` in `index.js`
+- Observe the parsed components in the console output
+
+Example:
+```javascript
+const inputUrl = 'https://example.com:8080/path/name?name=JohnDoe&age=25';
+```
+
+---
+
+## 📊 Examples
+
+### Given:
+```javascript
+https://example.com:8080/path/name?name=JohnDoe&age=25
+```
+
+### Output:
+```
+Protocol: https:
+Host: example.com:8080
+Pathname: /path/name
+Query: name=JohnDoe&age=25
+```
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+
+---
+
+> Built with ❤️ by [Saikat Das](https://github.com/saikatdasdeveloper)
+
 ![image](https://github.com/user-attachments/assets/ec24ca9b-edde-425c-ba4e-c598f62afbd5)
